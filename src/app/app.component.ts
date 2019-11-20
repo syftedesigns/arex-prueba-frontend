@@ -141,13 +141,13 @@ export class AppComponent implements OnInit {
             // foreach Array Deals
             // tslint:disable-next-line:only-arrow-functions
             this.ArrayDeals.sort(function(a, b) {
-              return new Date(a.dueDate) - new Date(b.dueDate);
+              return Number(new Date(a.dueDate)) - Number(new Date(b.dueDate));
             });
             this.SortTablePerItems(0);
           } else {
             // tslint:disable-next-line:only-arrow-functions
             this.ArrayDeals.sort(function(a, b) {
-              return new Date(b.dueDate) - new Date(a.dueDate);
+              return Number(new Date(b.dueDate)) - Number(new Date(a.dueDate));
             });
             this.SortTablePerItems(0);
           }
@@ -163,6 +163,7 @@ export class AppComponent implements OnInit {
   async ApplyAllFilters(Filters: any, actionSort: string) {
     if (Filters.orderTable === 'asc' && Filters.orderByKey === 'price') {
       this.ArrayDeals = await this.ReadJSONDataFile();
+      // tslint:disable-next-line:only-arrow-functions
       this.ArrayDeals.sort(function(a, b) {
         return a.price - b.price;
       });
@@ -184,8 +185,9 @@ export class AppComponent implements OnInit {
     } else {
       if (Filters.orderTable === 'asc' && Filters.orderByKey === 'date') {
         this.ArrayDeals = await this.ReadJSONDataFile();
+        // tslint:disable-next-line:only-arrow-functions
         this.ArrayDeals.sort(function(a, b) {
-          return new Date(a.dueDate) - new Date(b.dueDate);
+          return Number(new Date(a.dueDate)) - Number(new Date(b.dueDate));
         });
         const ArrayBuilded = new Array();
         let iterator = 0;
@@ -205,6 +207,7 @@ export class AppComponent implements OnInit {
       } else {
         if (Filters.orderTable === 'desc' && Filters.orderByKey === 'price') {
           this.ArrayDeals = await this.ReadJSONDataFile();
+          // tslint:disable-next-line:only-arrow-functions
           this.ArrayDeals.sort(function(a, b) {
             return b.price - a.price;
           });
@@ -226,8 +229,9 @@ export class AppComponent implements OnInit {
       } else {
         if (Filters.orderTable === 'desc' && Filters.orderByKey === 'date') {
           this.ArrayDeals = await this.ReadJSONDataFile();
+          // tslint:disable-next-line:only-arrow-functions
           this.ArrayDeals.sort(function(a, b) {
-            return new Date(b.dueDate) - new Date(a.dueDate);
+            return Number(new Date(b.dueDate)) - Number(new Date(a.dueDate));
           });
           const ArrayBuilded = new Array();
           let iterator = 0;
