@@ -1,0 +1,22 @@
+.hover-shadow-sm:hover {
+    -webkit-box-shadow: 0 0.125rem 0.25rem rgba(74, 77, 82, 0.08) !important;
+    box-shadow: 0 0.125rem 0.25rem rgba(74, 77, 82, 0.08) !important;
+}
+
+.hover-shadow:hover {
+    -webkit-box-shadow: 0 0 1.25rem rgba(74, 77, 82, 0.08) !important;
+    box-shadow: 0 0 1.25rem rgba(74, 77, 82, 0.08) !important;
+}
+
+.hover-shadow-lg {
+    -webkit-box-shadow: 0 1rem 9rem rgba(14, 245, 233, 0.08) !important;
+    box-shadow: 0 1rem 9rem rgba(14, 245, 233, 0.08) !important;
+}
+
+.mat-radio-button~.mat-radio-button {
+    margin-left: 16px;
+}
+
+.table-m {
+    margin-top: -2em;
+}

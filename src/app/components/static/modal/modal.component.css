@@ -1,0 +1,4 @@
+.hover-shadow-lg {
+    -webkit-box-shadow: 0 1rem 9rem rgba(14, 245, 233, 0.08) !important;
+    box-shadow: 0 1rem 9rem rgba(14, 245, 233, 0.08) !important;
+}

@@ -1,0 +1,114 @@
+[
+  {
+    "id":"1",
+    "name":"New York Office",
+    "address":"800 6th Ave, New York",
+    "price":"300000",
+	"type": "acquisition",
+	"dueDate": "2020-09-01"
+  },
+  {
+    "id":"2",
+    "name":"Hotel Manhattan",
+    "address":"132 Madison Ave, New York",
+    "price":"1250000",
+	"type": "development",
+	"dueDate": "2025-01-01"
+  },
+  {
+    "id":"3",
+    "name":"Verizon Offices",
+    "address":"277 Canal St, New York",
+    "price":"650000",
+	"type": "financing",
+	"dueDate": "2020-06-25"
+  },
+  {
+    "id":"4",
+    "name":"Public Library",
+    "address":"9 Murray Street, New York",
+    "price":"420000",
+	"type": "financing",
+	"dueDate": "2020-11-11"
+  },
+  {
+    "id":"5",
+    "name":"Sports bar",
+    "address":"836 River Ave, The Bronx",
+    "price":"220000",
+	"type": "acquisition",
+	"dueDate": "2020-04-01"
+  },
+  {
+    "id":"6",
+    "name":"New Red Hat offices",
+    "address":"140 Broadway, New York",
+    "price":"465000",
+	"type": "acquisition",
+	"dueDate": "2021-01-01"
+  },
+  {
+    "id":"7",
+    "name":"Asana Expansion",
+    "address":"3 World Trade Center, New York",
+    "price":"380000",
+	"type": "acquisition",
+	"dueDate": "2020-12-15"
+  },
+  {
+    "id":"8",
+    "name":"Murray Park",
+    "address":"45th Rd Long Island City",
+    "price":"565000",
+	"type": "leasing",
+	"dueDate": "2025-01-01"
+  },
+  {
+    "id":"9",
+    "name":"New York Nightclubg",
+    "address":"39 E 58th St, New York",
+    "price":"750",
+	"type": "acquisition",
+	"dueDate": "2020-09-20"
+  },
+  {
+    "id":"10",
+    "name":"Mind Over Health & Fitness",
+    "address":"126 W 96th ST, New York",
+    "price":"180000",
+	"type": "financing",
+	"dueDate": "2020-08-15"
+  },
+  {
+    "id":"11",
+    "name":"Naruto Restaurant",
+    "address":"2634 Broadway, New York",
+    "price":"360000",
+	"type": "acquisition",
+	"dueDate": "2020-10-18"
+  },
+  {
+    "id":"12",
+    "name":"Harlem Hotel",
+    "address":"2296 Frederick Douglass Blvd, New York",
+    "price":"1150000",
+	"type": "development",
+	"dueDate": "2022-03-01"
+  },
+  {
+    "id":"13",
+    "name":"Chase Bank",
+    "address":"784 Castle Hill Ave, The Bronx",
+    "price":"3500000",
+	"type": "leasing",
+	"dueDate": "2022-04-01"
+  },
+  {
+    "id":"14",
+    "name":"High School of Music & Art",
+    "address":"100 Amsterdam Ave, New York",
+    "price":"480000",
+	"type": "financing",
+	"dueDate": "2028-05-30"
+  }
+]

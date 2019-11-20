@@ -1,0 +1,13 @@
+<header>
+    <mat-toolbar color="primary">
+        <mat-toolbar-row>
+            <a [routerLink]="['/']">
+                <img style="width: 65px;" src="./assets/images/angular-elements-logo.png" title="logo" alt="app-logo">
+            </a>
+            <span class="example-spacer"></span>
+            <button (click)="OpenDialogFavorites();" class="example-icon" mat-raised-button color="accent">
+                <mat-icon aria-hidden="false" aria-label="Example heart icon">favorite</mat-icon>
+            </button>
+        </mat-toolbar-row>
+    </mat-toolbar>
+</header>

@@ -1,0 +1,14 @@
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.copy {
+    font-size: 11px !important;
+}
+
+.m-top {
+    position: relative;
+    top: 0.2em;
+}
