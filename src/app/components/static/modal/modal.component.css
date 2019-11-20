@@ -1,4 +1,9 @@
 .hover-shadow-lg {
-    -webkit-box-shadow: 0 1rem 9rem rgba(14, 245, 233, 0.08) !important;
-    box-shadow: 0 1rem 9rem rgba(14, 245, 233, 0.08) !important;
+    -webkit-box-shadow: 0 1rem 9rem rgba(206, 209, 209, 0.08) !important;
+    box-shadow: 0 1rem 9rem rgba(206, 209, 209, 0.08) !important;
+}
+
+.table-layout {
+    display: block;
+    overflow: auto;
 }

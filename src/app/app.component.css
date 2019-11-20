@@ -20,3 +20,8 @@
 .table-m {
     margin-top: -2em;
 }
+
+.table-layout {
+    display: block;
+    overflow: auto;
+}
